@@ -45,7 +45,7 @@ cd member-directory-app
 ```bash
 uv venv
 source .venv/bin/activate
-uv pip install -r requirements.txt  # or install from pyproject.toml
+uv pip install -e .  # install package and dependencies
 ```
 
 ### 3. Configure `.env`
