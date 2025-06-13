@@ -1,0 +1,15 @@
+[project]
+name = "member-directory-app"
+version = "0.1.0"
+description = "Streamlit-based member directory app using Google Sheets"
+authors = [{ name = "Tiana Smith" }]
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit>=1.31",
+    "pandas",
+    "gspread",
+    "google-auth",
+]
+
+[tool.uv]
+# Optional: future settings go here
