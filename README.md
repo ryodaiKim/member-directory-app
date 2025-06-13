@@ -81,6 +81,16 @@ If you just want to see a simple list of members, run:
 streamlit run app/demo.py
 ```
 
+### CLI usage
+
+Install the package in editable mode and use the built-in CLI:
+
+```bash
+pip install -e .
+member-dir load-sheet  # print member data as CSV
+member-dir demo        # open the demo in Streamlit
+```
+
 ---
 
 ## 🌐 Deployment

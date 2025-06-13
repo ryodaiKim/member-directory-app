@@ -11,5 +11,8 @@ dependencies = [
     "google-auth",
 ]
 
+[project.scripts]
+member-dir = "member_directory_app.cli:main"
+
 [tool.uv]
 # Optional: future settings go here
