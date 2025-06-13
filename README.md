@@ -73,6 +73,14 @@ streamlit run app/streamlit_app.py
 
 The app will launch at `http://localhost:8501`
 
+### Demo page
+
+If you just want to see a simple list of members, run:
+
+```bash
+streamlit run app/demo.py
+```
+
 ---
 
 ## 🌐 Deployment
@@ -109,4 +117,3 @@ For easy hosting, use:
 ## 📄 License
 
 MIT License. Built by [Tiana Smith](https://github.com/YOUR_USERNAME).
-$$
