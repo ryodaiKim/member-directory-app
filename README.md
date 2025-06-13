@@ -54,6 +54,7 @@ Create a `.env` file:
 
 ```
 GOOGLE_SHEET_ID=your_google_sheet_id
+SERVICE_ACCOUNT=service_account.json
 ```
 
 ### 4. Add Google Service Account
